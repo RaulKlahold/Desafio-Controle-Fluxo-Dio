@@ -4,7 +4,18 @@ public class ColetarDados {
 	private int parametroUM;
 	private int parametroDois;
 	private FunctionAndCalc valorretornado;
+	public Exceptions exceptions;
 	
+
+	
+
+	public Exceptions getExceptions() {
+		return exceptions;
+	}
+
+	public void setExceptions(Exceptions exceptions) {
+		this.exceptions = exceptions;
+	}
 
 	public FunctionAndCalc getValorretornado() {
 		return valorretornado;
